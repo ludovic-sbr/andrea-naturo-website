@@ -9,7 +9,7 @@ import axios from 'axios'
 import { Elements } from '@stripe/react-stripe-js'
 import { loadStripe } from '@stripe/stripe-js'
 
-const stripePromise = loadStripe('pk_test_51KQwI8CPsIWMaO3UzZUsAkYPoy4P2h0NZQWgJXAGWBpbyTsmaOhXjmu67qse7iiwJ5xAJeomDDSZ39apLTnZRn13003hYCv1lI');
+const stripePromise = loadStripe('pk_live_51KQwI8CPsIWMaO3Uy9kNlQIZhrkBdiFMQMq1Gzj4OezfJmGkadq91rIJwm4LuOKV1Q4qdcIL1k2Rz1lMnQ1zj66X00hoOu9r92');
 
 const Index = () => {
   const { cartStatus, setCartStatus } = useContext(CartContext)
