@@ -27,7 +27,7 @@ const PaymentPage = ({ cart, payment }) => {
     const result = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: "/",
+        return_url: "https://andrea-naturopathie.com/",
       },
       redirect: "if_required"
     });
