@@ -1,0 +1,43 @@
+.section-welcome {
+  height: 930px;
+
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
+  overflow: hidden;
+
+  background-image: url('../../../assets/images/website_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .title {
+    color: #fff;
+
+    h1 {
+      text-transform: uppercase;
+      font-family: "Gilroy-ExtraBold", serif;
+      font-weight: bold;
+      font-size: 55px;
+      color: #fff;
+      line-height: 1;
+      text-align: left;
+    }
+
+    p {
+      max-width: 100%;
+
+      font-size: 25px;
+    }
+  }
+
+  .image {
+    height: 550px;
+
+    img {
+      max-height: 100%;
+
+      border: 3px solid #fff;
+    }
+  }
+}

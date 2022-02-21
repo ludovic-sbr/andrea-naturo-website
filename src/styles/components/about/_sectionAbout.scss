@@ -1,0 +1,50 @@
+.section-about {
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  background-color: #f3f2d9;
+
+  .wave-3 {
+    top: 0;
+    position: absolute;
+
+    z-index: 999;
+  }
+
+  .wave-4 {
+    bottom: 0;
+    position: absolute;
+
+    z-index: 999;
+  }
+
+  h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .img-deco {
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+      max-height: 900px;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      max-width: 90%;
+    }
+  }
+}

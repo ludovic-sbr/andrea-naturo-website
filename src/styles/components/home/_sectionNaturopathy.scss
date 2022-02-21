@@ -1,0 +1,33 @@
+.section-naturopathy {
+  max-height: 700px;
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 125px;
+
+    background-color: #fff;
+
+    h1 {
+      max-width: 65%;
+      text-transform: uppercase;
+      font-family: "Gilroy-ExtraBold", serif;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 1;
+      text-align: left;
+    }
+
+    p {
+      max-width: 90%;
+    }
+  }
+
+  .section-image {
+    height: 700px;
+    background-image: url("../../../assets/images/7068357.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+}

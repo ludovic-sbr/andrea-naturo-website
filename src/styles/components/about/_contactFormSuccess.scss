@@ -1,0 +1,14 @@
+.contact-form-success {
+  width: 80%; height: auto;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+
+  h4, p {
+    text-align: center;
+  }
+}

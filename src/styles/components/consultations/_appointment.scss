@@ -1,0 +1,60 @@
+@import 'appointmentForm';
+@import 'appointmentFormSuccess';
+
+.appointment {
+  height: auto;
+
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  transition: transform .3s ease-in-out;
+  text-align: left;
+
+  &:hover {
+    transform: scale(1.03, 1.03);
+  }
+
+  header {
+    width: 90%; height: auto;
+
+    div {
+      width: 100%;
+
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-around;
+
+      button {
+        font-size: 14px;
+      }
+    }
+  }
+
+  footer {
+    width: 100%; height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .item-extend {
+    right: 0; bottom: 0;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,43 @@
+.appointment-form {
+  width: 90%; height: auto;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+
+  .chart {
+    width: 70%; height: auto;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    textarea {
+      max-height: 100px; max-width: 100%;
+    }
+
+    .invalid-msg {
+      display: none;
+      position: relative;
+
+      color: red;
+      font-size: 12px;
+    }
+  }
+
+  .invalid {
+    input {
+      border: 1px solid red;
+    }
+
+    .invalid-msg {
+      display: block;
+    }
+  }
+}

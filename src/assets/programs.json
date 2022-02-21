@@ -1,0 +1,9 @@
+{
+  "program1": {
+    "name": "Programme hypotoxique – detox d’automne",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "image": "../../assets/images/program1-image.png",
+    "date": "03/02/2022",
+    "price": "150€"
+  }
+}

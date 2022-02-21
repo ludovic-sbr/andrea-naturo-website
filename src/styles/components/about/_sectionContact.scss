@@ -1,0 +1,14 @@
+@import 'contactForm';
+@import 'contactFormSuccess';
+
+.section-contact {
+  height: auto; width: 100%;
+
+  padding-top: 75px;
+  padding-bottom: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}

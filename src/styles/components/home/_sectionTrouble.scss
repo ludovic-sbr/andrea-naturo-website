@@ -1,0 +1,73 @@
+.section-trouble {
+  max-height: 800px;
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 125px;
+
+    background: #f3f2d9;
+
+    h1 {
+      max-width: 90%;
+
+      text-transform: uppercase;
+      font-family: "Gilroy-ExtraBold", serif;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 1;
+      text-align: left;
+    }
+
+    .troubles-list {
+      max-width: 90%; height: auto;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .trouble-item {
+        width: 100%;
+
+        display: flex;
+        margin-bottom: 20px;
+
+        img {
+          height: 60px;
+        }
+
+        div {
+          margin-left: 25px;
+
+          span {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-family: "Gilroy-Bold", serif;
+            font-weight: 700;
+          }
+
+          p {
+            font-size: 16px;
+            letter-spacing: 0.3px;
+          }
+        }
+      }
+    }
+  }
+
+  .section-image {
+    height: 700px;
+    background-image: url("../../../assets/images/7068357.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .section-content {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}

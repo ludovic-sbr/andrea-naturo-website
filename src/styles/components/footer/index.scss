@@ -1,0 +1,29 @@
+.website-footer {
+  height: 400px;
+
+  position: relative;
+  overflow: hidden;
+  padding-top: 50px;
+
+  background-color: #425642;
+  color: #fff;
+
+  .website-footer-inner {
+    height: 100%;
+
+    .footer-inner {
+      .social {
+        display: flex;
+        justify-content: space-around;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    .credits {
+      border-top: 1px solid #fff;
+    }
+  }
+}

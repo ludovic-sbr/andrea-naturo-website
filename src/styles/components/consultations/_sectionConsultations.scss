@@ -1,0 +1,16 @@
+@import 'consultation';
+
+.section-consultations {
+  height: auto;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    margin-top: 90px !important;
+    margin-bottom: 40px;
+  }
+}

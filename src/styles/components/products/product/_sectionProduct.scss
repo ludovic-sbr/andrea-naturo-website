@@ -1,0 +1,80 @@
+.section-product {
+  .product-image {
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+  .product-detail {
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: left;
+
+    h2 {
+      margin: 0;
+
+      font-family: "Gilroy-ExtraBold", serif;
+      font-weight: 700;
+      font-size: 35px;
+      text-transform: uppercase;
+    }
+
+    .product-price {
+      margin: 0;
+      font-size: 25px;
+    }
+
+    .product-description {
+      font-size: 18px;
+      font-family: "Inter-Light", serif;
+      letter-spacing: 0.3px;
+    }
+
+    .product-meta-icons {
+      width: 100%; height: auto;
+
+      display: flex;
+      justify-content: space-around;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        font-weight: 700;
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .submit {
+      width: 100%; height: auto;
+
+      padding: 15px;
+      margin: 0;
+
+      border-radius: 70px;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 18px;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

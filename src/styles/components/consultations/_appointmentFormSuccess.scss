@@ -1,0 +1,16 @@
+.appt-form-success {
+  width: 90%; height: auto;
+
+  position: relative;
+
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+
+  .submit {
+    width: 100px;
+
+    margin-top: 40px;
+
+    display: block;
+  }
+}

@@ -1,0 +1,19 @@
+.logo {
+  height: 100%; width: 300px;
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+
+
+@media screen and (max-width: 1100px) {
+  .logo {
+    width: 100%; height: auto;
+
+    justify-content: center;
+    position: relative;
+  }
+}

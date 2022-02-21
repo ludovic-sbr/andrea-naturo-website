@@ -1,0 +1,89 @@
+@import 'abstracts/fonts';
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0; padding: 0;
+
+  display: block;
+  overflow-x: hidden;
+
+  font-family: "Inter-Regular", serif;
+
+  background-color: #f1ede9;
+  color: #000;
+}
+
+h1, h2 {
+  font-family: "Inter-Bold", serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+button, .submit {
+  cursor: pointer;
+}
+
+.submit {
+  height: 35px; width: 200px;
+
+  margin: 10px auto;
+  position: relative;
+  display: block;
+
+  border: none;
+  background: #f98510;
+  color: white;
+  font-family: "Inter-Medium";
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background: #dc7310;
+  }
+}
+
+input {
+  height: 35px;
+
+  border-radius: 0;
+  border: 1px solid #6ba839;
+
+  &:focus {
+    outline: none;
+
+    border: 1px solid black;
+  }
+}
+
+textarea {
+  max-height: 75px; max-width: 100%;
+
+  border-radius: 0;
+  border: 1px solid #6ba839;
+
+  &:focus {
+    outline: none;
+
+    border: 1px solid black;
+  }
+}
+
+.jsx-868738714 {
+
+  a {
+    display: none !important;
+  }
+}
