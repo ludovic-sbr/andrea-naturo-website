@@ -22,7 +22,7 @@ const PaymentSuccess = ({ submit, emailStatus }) => {
           disabled={emailStatus.processing || emailStatus.succeeded || emailStatus.disabled ? "disabled" : null}
         />
         {
-          emailStatus.processing ? <button type="button" className="btn btn-secondary w-50 mx-auto" disabled><ReactLoading type={'bubbles'} color={'white'} /></button>
+          emailStatus.processing ? <><button type="button" className="btn btn-secondary w-50 mx-auto" disabled><ReactLoading type={'bubbles'} color={'white'} /></button><p> Cela peut prendre quelques minutes ... </p></>
           : emailStatus.succeeded ? <button type="button" className="btn btn-success w-50 mx-auto"> Envoyé ! </button>
           : emailStatus.disabled ? <button type="button" className="btn btn-danger w-50 mx-auto"> Erreur lors de l'envoi... </button>
           : <button type="submit" className="btn btn-primary submit"> ENVOYER </button>

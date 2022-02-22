@@ -25,5 +25,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+
+    p {
+      text-align: center;
+
+      font-size: 14px;
+      font-style: italic;
+    }
   }
 }
