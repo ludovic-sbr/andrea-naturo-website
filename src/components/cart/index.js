@@ -32,7 +32,7 @@ const Index = () => {
 
   useEffect(() => {
     axios
-    .post('http://localhost:5000/create-payment-intent', {
+    .post('https://api.andrea-naturopathie.com/create-payment-intent', {
       amount: cart.value * 100,
       currency: 'eur'
     })

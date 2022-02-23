@@ -48,7 +48,7 @@ const PaymentPage = ({ cart, payment }) => {
       disabled: false
     })
 
-    axios.post('http://localhost:5000/send-products-by-email', {
+    axios.post('https://api.andrea-naturopathie.com/send-products-by-email', {
       email: email,
       products: cart.items
     }).then(res => {
