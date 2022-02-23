@@ -50,7 +50,7 @@ const PaymentPage = ({ cart, payment }) => {
 
     axios.post('https://api.andrea-naturopathie.com/send-products-by-email', {
       email: email,
-      products: cart.items
+      cart: cart
     }).then(res => {
       setEmailStatus({
         succeeded: true,
