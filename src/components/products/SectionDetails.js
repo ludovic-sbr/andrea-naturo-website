@@ -5,7 +5,7 @@ import diarrhea from "../../assets/images/diarrhea.png"
 
 const SectionDetails = () => {
   return (
-    <div className="row section-details pt-4">
+    <div className="row section-details d-flex align-items-center">
       <div className="detail col-4 mx-auto">
         <img src={diarrhea} alt="diarrhea" />
         <span> Transit naturel et régulier </span>

@@ -27,7 +27,7 @@ const PaymentPage = ({ cart, payment }) => {
     const result = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: "https://andrea-naturopathie.com/",
+        return_url: "https://andrea-naturopathie.com/"
       },
       redirect: "if_required"
     });
@@ -48,7 +48,7 @@ const PaymentPage = ({ cart, payment }) => {
       disabled: false
     })
 
-    axios.post('https://api.andrea-naturopathie.com/send-products-by-email', {
+    axios.post('http://localhost:5000/send-products-by-email', {
       email: email,
       products: cart.items
     }).then(res => {

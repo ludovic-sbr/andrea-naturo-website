@@ -12,6 +12,10 @@ const Index = () => {
   const [ebooks, setEbooks] = useState({})
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  useEffect(() => {
     onValue(ref(db, 'programs'), snapshot => {
       setPrograms(snapshot.val())
     })

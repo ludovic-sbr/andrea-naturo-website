@@ -87,3 +87,19 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .image {
+    width: 25px;
+  }
+
+  .header-content {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}

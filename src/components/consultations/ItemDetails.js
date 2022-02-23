@@ -4,7 +4,7 @@ const ItemDetails = ({ style }) => {
   return (
     <div className="item-details" style={style}>
       <div className="timeline">
-        <div className="step">
+        <div className="step d-none d-sm-block">
           <span data-info="Prise de rendez-vous" />
         </div>
         <div className="step">
@@ -17,7 +17,7 @@ const ItemDetails = ({ style }) => {
           <span data-info="Séance de suivi" />
         </div>
       </div>
-      <div className="details">
+      <div className="details d-flex flex-column flex-sm-row">
         <p>Durée : 1h30</p>
         <p>Prix : 75€</p>
         <p>A distance</p>

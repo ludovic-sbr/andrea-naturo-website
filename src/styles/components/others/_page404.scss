@@ -1,0 +1,28 @@
+.error-404-page {
+  height: 930px;
+
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin: 0;
+
+    font-size: 125px;
+    font-family: 'Inter-Bold', serif;
+    line-height: 1;
+  }
+
+  span {
+    margin-bottom: 20px;
+
+    font-size: 25px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    width: auto; height: auto;
+  }
+}

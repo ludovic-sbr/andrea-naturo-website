@@ -9,6 +9,8 @@ import Consultations from './components/consultations'
 import Products from './components/products'
 import Product from './components/products/product'
 
+import Page404 from './components/others/Page404'
+
 import Cart from './components/cart'
 
 import Header from './components/header'
@@ -30,6 +32,7 @@ function App() {
         <Route path="/consultations" element={<Consultations />} />
         <Route path="/produits" element={<Products />} />
         <Route path="/produits/:productName" element={<Product />} />
+        <Route path="*" element={<Page404 />} />
       </Routes>
       <Footer />
     </BrowserRouter>

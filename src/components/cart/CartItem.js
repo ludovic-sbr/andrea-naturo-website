@@ -4,7 +4,7 @@ import { MdOutlineCancel } from 'react-icons/md'
 const CartItem = ({ item, deleteFromCard, paymentStatus }) => {
   return (
     <div className="cart-item">
-      {!paymentStatus ? <MdOutlineCancel className="delete" onClick={deleteFromCard} /> : null}
+      {!paymentStatus ? <MdOutlineCancel className="delete" size={25} onClick={deleteFromCard} /> : null}
       <div className="item-image">
         <img src={item.image} alt='test' />
       </div>

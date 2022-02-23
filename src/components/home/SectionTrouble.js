@@ -8,36 +8,38 @@ const SectionTrouble = () => {
     <div className="row section-trouble d-flex justify-content-end">
       <div className="section-image d-none d-lg-block col-lg-5" />
       <div className="section-content col-12 col-lg-7">
-        <h1 className="mb-5">Les principaux troubles que j'accompagne</h1>
-        <div className="troubles-list">
-          <div className="trouble-item">
-            <img src={stomach} alt="Troubles cutanés" />
-            <div>
-              <span> Désordres digestifs </span>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+        <div className="inner row">
+          <h2 className="mb-5 col-12 col-sm-8">Les principaux troubles que j'accompagne</h2>
+          <div className="troubles-list col-12">
+            <div className="trouble-item">
+              <img src={stomach} alt="Troubles cutanés" />
+              <div>
+                <span> Désordres digestifs </span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="trouble-item">
-            <img src={overweight} alt="Troubles cutanés" />
-            <div>
-              <span> Perte de poids </span>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+            <div className="trouble-item">
+              <img src={overweight} alt="Troubles cutanés" />
+              <div>
+                <span> Perte de poids </span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="trouble-item">
-            <img src={acne} alt="Troubles cutanés" />
-            <div>
-              <span> Troubles cutanés </span>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod.
-              </p>
+            <div className="trouble-item">
+              <img src={acne} alt="Troubles cutanés" />
+              <div>
+                <span> Troubles cutanés </span>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod.
+                </p>
+              </div>
             </div>
           </div>
         </div>

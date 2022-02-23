@@ -12,6 +12,10 @@ const Index = () => {
   const [product, setProduct] = useState({})
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  useEffect(() => {
     get(child(ref(getDatabase()), `programs/${productName}`)).then((snapshot) => {
       if (snapshot.exists()) {
         setProduct(snapshot.val())

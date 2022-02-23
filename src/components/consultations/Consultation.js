@@ -12,14 +12,15 @@ const Consultation = () => {
 
   return (
     <div className="consultation col-xl-6 col-lg-7 col-md-11 col-sm-12 mx-auto mb-4">
-      <header>
-        <div className="image">
+      <header className="row">
+        <div className="image d-none d-sm-block col-sm-5">
           <img src={image} alt="illustration"/>
         </div>
-        <div className="header-content">
+        <div className="header-content col-12 col-sm-7">
           <h3> PREMIER BILAN </h3>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <p>
+            Lorem lorem lorem Lorem lorem loremLorem lorem loremLorem lorem lorem
+          </p>
         </div>
       </header>
       <ItemDetails style={extended ? { height: '300px' } : { height: '0' }}/>

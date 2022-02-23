@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import SectionStart from './SectionStart'
 import SectionInsta from './SectionInsta'
@@ -7,6 +7,10 @@ import SectionContact from './SectionContact'
 
 
 const Index = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="about container-fluid">
       <SectionStart />
