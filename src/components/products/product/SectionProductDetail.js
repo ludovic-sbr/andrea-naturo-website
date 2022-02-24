@@ -1,5 +1,7 @@
 import React from 'react'
-import { GiCottonFlower } from 'react-icons/gi'
+import { FaLeaf } from 'react-icons/fa'
+import { GiChefToque } from 'react-icons/gi'
+import { RiHeartPulseFill } from 'react-icons/ri'
 
 const SectionProductDetail = () => {
   return (
@@ -8,17 +10,17 @@ const SectionProductDetail = () => {
         <h2 className="row d-flex justify-content-center"> Pourquoi les gens l'adorent </h2>
         <div className="row why-grid">
           <div className="col-12 col-md-4 mb-4">
-            <GiCottonFlower size={50} />
+            <FaLeaf size={50} />
             <h3> Simplicité </h3>
             <p> Des recettes simples et délicieuses accompagnées de conseils. </p>
           </div>
           <div className="col-12 col-md-4 mb-4">
-            <GiCottonFlower size={50} />
+            <GiChefToque size={50} />
             <h3> Diversité </h3>
             <p> De nouveaux plats chaque jours avec des produits de saison. </p>
           </div>
           <div className="col-12 col-md-4 mb-4">
-            <GiCottonFlower size={50} />
+            <RiHeartPulseFill size={50} />
             <h3> Santé </h3>
             <p> Un programme complet pour un mode de vie sain et une peau étincelante ! </p>
           </div>

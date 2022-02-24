@@ -9,25 +9,25 @@ const SectionTrouble = () => {
       <div className="section-image d-none d-lg-block col-lg-5" />
       <div className="section-content col-12 col-lg-7">
         <div className="inner row">
-          <h2 className="mb-5 col-12 col-sm-8">Les principaux troubles que j'accompagne</h2>
+          <h2 className="mb-5 col-12 col-sm-8">
+            Les principaux troubles que j'accompagne
+          </h2>
           <div className="troubles-list col-12">
             <div className="trouble-item">
               <img src={stomach} alt="Troubles cutanés" />
               <div>
                 <span> Désordres digestifs </span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod.
+                  Mauvaise digestion, maladies inflammatoires, colon irritable...
                 </p>
               </div>
             </div>
             <div className="trouble-item">
               <img src={overweight} alt="Troubles cutanés" />
               <div>
-                <span> Perte de poids </span>
+                <span> Déséquilibre pondéral </span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod.
+                  Perte et prise de poids, troubles du comportement alimentaire...
                 </p>
               </div>
             </div>
@@ -36,8 +36,7 @@ const SectionTrouble = () => {
               <div>
                 <span> Troubles cutanés </span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod.
+                  Acné, eczéma, dermatite atopique, psoriasis, urticaire...
                 </p>
               </div>
             </div>

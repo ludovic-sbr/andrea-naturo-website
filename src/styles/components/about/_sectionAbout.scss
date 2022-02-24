@@ -23,12 +23,6 @@
     z-index: 999;
   }
 
-  h2 {
-    font-size: 45px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
   .img-deco {
     overflow: hidden;
 
@@ -42,6 +36,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    h2 {
+      margin-bottom: 30px;
+
+      font-size: 45px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
 
     p {
       max-width: 90%;

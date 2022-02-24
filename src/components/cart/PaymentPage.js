@@ -14,6 +14,7 @@ const PaymentPage = ({ cart, payment }) => {
     processing: false,
     disabled: false
   })
+  const [cardError, setCardError] = useState("")
   const dispatch = useDispatch()
 
   const stripe = useStripe()
@@ -34,6 +35,7 @@ const PaymentPage = ({ cart, payment }) => {
 
     if (result.error) {
       dispatch(updateCartStatus("unpaid"))
+      setCardError(result.error.message)
     } else {
       dispatch(updateCartStatus("paid"))
     }
@@ -68,7 +70,7 @@ const PaymentPage = ({ cart, payment }) => {
       {
         cart.status === "paid" || paymentStatus ?
           <PaymentSuccess submit={sendProducts} emailStatus={emailStatus} />
-        : <CheckoutForm submit={handleSubmit} cart={cart} />
+        : <CheckoutForm submit={handleSubmit} cart={cart} cardError={cardError} />
       }
     </div>
   )

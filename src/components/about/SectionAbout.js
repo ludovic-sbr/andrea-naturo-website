@@ -11,7 +11,14 @@ const SectionAbout = () => {
       <div className="col-md-6 content">
         <h2>ANDREA, NATUROPATHE</h2>
         <p>
-          Je suis infirmière et diplômée en tant que naturopathe au CERFPA.
+          Je suis infirmière depuis 5 ans et diplômée en tant que naturopathe au
+          CERFPA.
+          <br/><br/>
+          Venir compléter mon premier métier avec la naturopathie était pour moi
+          une évidence car l’énergie vitale est en chacun de nous et la nature
+          nous offre un éventail incroyable de moyens pour booster notre santé.
+          Se connecter avec la nature, l’univers et surtout avec soi est
+          possible grâce à la naturopathie et ses principes.
           <br/><br/>
           Je souhaite vous transmettre la voie de la nature car vous avez en
           chacun de vous un pouvoir incroyable d’autoguérison.
