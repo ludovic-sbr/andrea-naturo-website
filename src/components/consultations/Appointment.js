@@ -31,10 +31,10 @@ const Appointment = () => {
         <h3> Consultation à distance </h3>
         <b> Prendre rendez-vous :</b>
         <p>• Par therapeutes.com ou par téléphone :</p>
-        <div>
-          <a href="https://www.therapeutes.com/naturopathe/marseille/andrea-sobrero" target="_blank" rel="noreferrer"><button type="button" className="btn btn-success" style={{backgroundColor: "#6ba839", border: 'none'}}> Je réserve par therapeutes.com </button></a>
-          <span> ou </span>
-          <span> 06.31.52.82.45 </span>
+        <div className="row bg-light p-2 rounded">
+          <a className="col-12 col-sm-5 d-flex justify-content-center align-items-center text-decoration-none" href="https://www.therapeutes.com/naturopathe/marseille/andrea-sobrero" target="_blank" rel="noreferrer"><button type="button" className="btn btn-success" style={{backgroundColor: "#6ba839", border: 'none'}}> Je réserve par therapeutes.com </button></a>
+          <span className="col-12 col-sm-2 d-flex justify-content-center align-items-center"> ou </span>
+          <span className="col-12 col-sm-5 d-flex justify-content-center align-items-center"> 06.31.52.82.45 </span>
         </div>
         <p>• Directement en ligne avec le formulaire ci-dessous :</p>
       </header>

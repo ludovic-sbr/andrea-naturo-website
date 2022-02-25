@@ -7,7 +7,7 @@ const SectionTrouble = () => {
   return (
     <div className="row section-trouble d-flex justify-content-end">
       <div className="section-image d-none d-lg-block col-lg-5" />
-      <div className="section-content col-12 col-lg-7">
+      <div className="section-content col-12 col-lg-7 pt-5 pb-4">
         <div className="inner row">
           <h2 className="mb-5 col-12 col-sm-8">
             Les principaux troubles que j'accompagne

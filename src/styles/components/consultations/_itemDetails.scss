@@ -86,3 +86,11 @@
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  span {
+    &:after {
+      width: 80px !important;
+    }
+  }
+}
