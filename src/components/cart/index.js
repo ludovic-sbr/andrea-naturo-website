@@ -5,7 +5,7 @@ import { CartContext } from '../../context/CartContext'
 import CartDetail from './CartDetail'
 import { MdCancelPresentation } from 'react-icons/md'
 import PaymentPage from './PaymentPage'
-import axios from 'axios'
+import api from "../../utils/api"
 import { Elements } from '@stripe/react-stripe-js'
 import { loadStripe } from '@stripe/stripe-js'
 
@@ -31,8 +31,8 @@ const Index = () => {
   }, [cartStatus])
 
   useEffect(() => {
-    axios
-    .post('https://api.andrea-naturopathie.com/create-payment-intent', {
+    api
+    .post('/create-payment-intent', {
       amount: cart.value * 100,
       currency: 'eur'
     })

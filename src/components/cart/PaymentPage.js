@@ -3,7 +3,7 @@ import { useElements, useStripe } from '@stripe/react-stripe-js'
 import CheckoutForm from './CheckoutForm'
 import PaymentSuccess from './PaymentSuccess'
 import { useDispatch } from 'react-redux'
-import axios from 'axios'
+import api from "../../utils/api"
 
 import { cleanCart, updateCartStatus } from "../../redux/reducers/cart.reducer"
 
@@ -50,7 +50,7 @@ const PaymentPage = ({ cart, payment }) => {
       disabled: false
     })
 
-    axios.post('https://api.andrea-naturopathie.com/send-products-by-email', {
+    api.post('/send-products-by-email', {
       email: email,
       cart: cart
     }).then(res => {
