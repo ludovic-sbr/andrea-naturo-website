@@ -9,8 +9,8 @@ const SectionAbout = () => {
         <img src={Andrea} alt="andrea"/>
       </div>
       <div className="col-md-6 content">
-        <h2>ANDREA, NATUROPATHE</h2>
-        <p>
+        <h2 className="mx-auto mx-md-0">ANDREA, NATUROPATHE</h2>
+        <p className="mx-auto mx-md-0">
           Je suis infirmière depuis 5 ans et diplômée en tant que naturopathe au
           CERFPA.
           <br/><br/>

@@ -70,3 +70,17 @@
     padding-bottom: 100px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .section-trouble {
+    .section-content {
+      .inner {
+        width: 100%;
+
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}

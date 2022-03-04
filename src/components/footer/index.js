@@ -16,9 +16,9 @@ const Index = () => {
           <div className="col-12 pb-3 col-md-4 pb-md-0 useful-links">
             <HashLink className="link" to="/a-propos#sectionContact"><span>Me contacter</span></HashLink>
             <br/>
-            <span>Thermes et conditions</span>
+            <span>Mentions légales</span>
             <br/>
-            <span>Conditions générales d'utilisation</span>
+            <span>Conditions générales de vente</span>
           </div>
           <div className="col-12 pb-3 col-md-4 pb-md-0 social">
             <a href="https://www.facebook.com/andrea.naturopathie" rel="noreferrer" target="_blank">
@@ -36,7 +36,7 @@ const Index = () => {
           </div>
         </div>
         <div className="row pt-3 pb-3 credits">
-          <span className="w-auto mx-auto">Développé par <a href="https://ludovicsobrero.com/" rel="noreferrer" target="_blank">Ludovic Sobrero</a></span>
+          <span className="w-auto mx-auto">Développé par <a href="https://www.fiverr.com/ludovic_sbr" rel="noreferrer" target="_blank">Ludovic Sobrero</a></span>
         </div>
       </div>
       <img src={wave} alt="wave" />

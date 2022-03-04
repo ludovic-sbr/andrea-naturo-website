@@ -41,3 +41,14 @@
     }
   }
 }
+
+
+@media screen and (max-width: 500px) {
+  .section-welcome {
+    .title {
+      h1 {
+        font-size: 45px;
+      }
+    }
+  }
+}

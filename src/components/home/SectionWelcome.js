@@ -4,7 +4,7 @@ import andrea_img from "../../assets/images/andrea_img.jpg"
 const SectionWelcome = () => {
   return (
     <div className="row section-welcome d-flex align-items-center">
-      <div className="title col-md-12 col-lg-4 mx-auto">
+      <div className="title col-md-10 col-lg-4 mx-auto">
         <h1 className="mx-auto">
           Andrea Sobrero
           <br />

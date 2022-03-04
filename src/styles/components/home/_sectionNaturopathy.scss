@@ -27,3 +27,18 @@
     background-size: cover;
   }
 }
+
+
+@media screen and (max-width: 500px) {
+  .section-naturopathy {
+    .section-content {
+      .inner {
+        width: 100%;
+
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
