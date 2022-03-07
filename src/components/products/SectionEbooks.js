@@ -12,14 +12,14 @@ const SectionEbooks = ({ ebooks }) => {
   ))
 
   return (
-    <div className="row section-ebooks" id="ebooks">
+    <section className="row section-ebooks" id="ebooks">
       <div className="row">
         <h2> E-BOOKS </h2>
       </div>
       <div className="row">
         {list}
       </div>
-    </div>
+    </section>
   )
 }
 

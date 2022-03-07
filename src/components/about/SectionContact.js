@@ -26,7 +26,7 @@ const SectionContact = () => {
   }
 
   return (
-    <div className="row container mx-auto section-contact" id="sectionContact">
+    <section className="row container mx-auto section-contact" id="sectionContact">
       <div className="col-md-5 content">
         <h2> ME CONTACTER </h2>
         <p>
@@ -38,7 +38,7 @@ const SectionContact = () => {
         {sent ? <ContactFormSuccess hideSuccessMsg={hideSuccessMsg}/> :
           <ContactForm sendEmail={sendEmail}/>}
       </div>
-    </div>
+    </section>
   )
 }
 

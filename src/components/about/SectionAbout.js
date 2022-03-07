@@ -4,7 +4,7 @@ import Andrea from '../../assets/images/andrea_img.jpg'
 
 const SectionAbout = () => {
   return (
-    <div className="row section-about">
+    <section className="row section-about">
       <div className="col-md-6 img-deco d-flex justify-content-center">
         <img src={Andrea} alt="andrea"/>
       </div>
@@ -32,7 +32,7 @@ const SectionAbout = () => {
           meilleur de vous même !
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 

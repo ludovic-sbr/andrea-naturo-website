@@ -5,7 +5,7 @@ import overweight from '../../assets/images/overweight.png'
 
 const SectionTrouble = () => {
   return (
-    <div className="row section-trouble d-flex justify-content-end">
+    <section className="row section-trouble d-flex justify-content-end">
       <div className="section-image d-none d-lg-block col-lg-5" />
       <div className="section-content col-12 col-lg-7 pt-5 pb-4">
         <div className="inner row">
@@ -43,7 +43,7 @@ const SectionTrouble = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

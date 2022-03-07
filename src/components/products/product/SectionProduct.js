@@ -15,7 +15,7 @@ const SectionProduct = ({ product }) => {
   }
 
   return (
-    <div className="row section-product">
+    <section className="row section-product">
       <div className="product-image col-xl-6 col-lg-8 col-md-10 col-sm-12 mx-auto mb-4">
         <img src={ product.image } alt="couverture" />
       </div>
@@ -41,7 +41,7 @@ const SectionProduct = ({ product }) => {
         </div>
         <button type="button" className="btn submit" onClick={addToCard}> Ajouter au panier </button>
       </div>
-    </div>
+    </section>
   )
 }
 

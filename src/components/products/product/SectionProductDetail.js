@@ -5,7 +5,7 @@ import { RiHeartPulseFill } from 'react-icons/ri'
 
 const SectionProductDetail = () => {
   return (
-    <div className="section-product-why-people-love-it">
+    <section className="section-product-why-people-love-it">
       <div className="container">
         <h2 className="row d-flex justify-content-center"> Pourquoi les gens l'adorent </h2>
         <div className="row why-grid">
@@ -26,7 +26,7 @@ const SectionProductDetail = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
